@@ -6,11 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name='viewport' content='width=device-width,initialscale=1'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <title>Olivia Gardella</title>
 </head>
-<body>
+<body class="form-background">
     <h1> OLIVIA GARDELLA </h1>
     <nav id="region1">
         <ul>
@@ -25,21 +27,25 @@
     <div role="main">
 
     <br>
-    <p>Let’s shoot together! Fill out this form and I’ll get back to you as soon as possible.</p>
+    <p class='form_text'>Let’s shoot together! Fill out this form and I’ll get back to you as soon as possible.</p>
 
     <form>
-        Name <br>
-        <input type="text" name="name"><br>
-        Email <br>
-        <input type="text" name="email"><br>
-        Message <br>
-        <input type="text" name="message"><br>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email"><br><br>
+
+        <label for="message">Message</label><br>
+        <!-- <input type="text" name="message"><br><br> -->
+        <textarea name="message" rows="5" cols="20" id="message"> </textarea><br>
+
         <input type="submit" value="Submit">
     </form>
 
     </div>
     
-    <footer>
+    <footer class="footer">
         <a href = "https://www.instagram.com/olivia_gardella/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href = "https://www.linkedin.com/in/olivia-gardella-9b6ba9126/" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
     </footer>
